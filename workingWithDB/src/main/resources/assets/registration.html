@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <script type="text/javascript" src="js/registration.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<h1>Registration</h1>
+<div id="entrance">
+    <h1>enter data</h1>
+    <p>
+        <input id="username" type="text" name="name" placeholder="name" ><!---->
+    </p>
+    <p>
+        <input id="userpassword" type="password" name="password" placeholder="password" ><!---->
+    </p>
+    <p>
+        <button type="submit" onclick="sendDataToServer()">Send data</button>
+    </p>
+</div>
+<button onclick="echo()">
+    get echo
+</button>
+</body>
+</html>
